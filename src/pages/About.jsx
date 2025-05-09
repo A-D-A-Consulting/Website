@@ -10,15 +10,21 @@ export default function About() {
       <h1 className="text-3xl text-center font-bold underline">A.D.A Consulting Website</h1>
 
       <div className="flex items-center justify-center space-x-4">
-        <Button 
+      <Button 
           onClick={() => navigate('/')}
           label="Home" />
         <Button 
           onClick={() => navigate('/about')}
           label="About Us" />
-        <Button label="Industries" />
-        <Button label="Contact Us" />
-        <Button label="Careers" />
+        <Button 
+          onClick={() => navigate('/industries')}
+          label="Industries" />
+        <Button 
+          onClick={() => navigate('/contact')}
+          label="Contact Us" />
+        <Button 
+          onClick={() => navigate('/careers')}
+          label="Careers" />
       </div>
 
       <p className="text-center text-xl">ABOUT US

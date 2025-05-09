@@ -2,7 +2,7 @@ import Button from "../components/Button";
 
 import { useNavigate } from "react-router-dom";
 
-export default function Home() {
+export default function Industries() {
     const navigate = useNavigate();
   return (
     
@@ -27,8 +27,10 @@ export default function Home() {
           label="Careers" />
       </div>
 
-      <p className="text-center text-xl">ADA Consulting Incorporated is a business system consulting firm that specializes in the development and implementation of computerized business applications. We have successfully implemented technical solutions in the biotech, consumer products, medical products, wholesale and distribution industries.
-      We understand the business needs of the clients and industries we support whether you are a multi-national corporation or a small office with few employees, we have the expertise and experience that you need.</p>
+      <p className="text-center text-xl">INDUSTRIES
+Committed to the relentless pursuit of excellence, A.D.A. Consulting, Inc. works with its clients to deliver innovative technology solutions. Our Professionals are dedicated to business process improvement through leading edge technology, extensive business experience, and a proven track record. We mobilize our staff and our skills to improve the performance of our clients organizations.
+
+First class customer satisfaction and top rated consultants have been A.D.A.'s primary assets that propelled this company to be one of the industries premier leader in software consulting here in the bay area.</p>
       <img src="/ADA.jpg" alt="ADA Logo" className="w-100 h-auto mx-auto" />
     </div>
       
