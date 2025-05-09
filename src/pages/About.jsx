@@ -6,7 +6,7 @@ export default function About() {
     const navigate = useNavigate();
   return (
     
-    <div className="text-center space-y-4">
+    <div className="m-25 text-center space-y-4">
       <h1 className="text-3xl text-center font-bold underline">A.D.A Consulting Website</h1>
 
       <div className="flex items-center justify-center space-x-4">
@@ -38,7 +38,7 @@ export default function About() {
 
         First class customer satisfaction and top rated consultants have been A.D.A.'s primary assets that propelled
         the company to be one of the industries premier leader in software consulting here in the bay area.</p>
-      <img src="/ADA.jpg" alt="ADA Logo" className="w-100 h-auto mx-auto" />
+      
     </div>
       
   );

@@ -31,7 +31,7 @@ export default function Industries() {
 Committed to the relentless pursuit of excellence, A.D.A. Consulting, Inc. works with its clients to deliver innovative technology solutions. Our Professionals are dedicated to business process improvement through leading edge technology, extensive business experience, and a proven track record. We mobilize our staff and our skills to improve the performance of our clients organizations.
 
 First class customer satisfaction and top rated consultants have been A.D.A.'s primary assets that propelled this company to be one of the industries premier leader in software consulting here in the bay area.</p>
-      <img src="/ADA.jpg" alt="ADA Logo" className="w-100 h-auto mx-auto" />
+      
     </div>
       
   );

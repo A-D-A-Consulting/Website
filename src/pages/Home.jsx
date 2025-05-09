@@ -29,7 +29,7 @@ export default function Home() {
 
       <p className="text-center text-xl">ADA Consulting Incorporated is a business system consulting firm that specializes in the development and implementation of computerized business applications. We have successfully implemented technical solutions in the biotech, consumer products, medical products, wholesale and distribution industries.
       We understand the business needs of the clients and industries we support whether you are a multi-national corporation or a small office with few employees, we have the expertise and experience that you need.</p>
-      <img src="/ADA.jpg" alt="ADA Logo" className="w-100 h-auto mx-auto" />
+      
     </div>
       
   );

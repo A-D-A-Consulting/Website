@@ -12,7 +12,7 @@ function App() {
   return (
     <main className="flex justify-center gap-4 flex-col min-h-screen">
 
-      
+    <img src="/ADA.jpg" alt="ADA Logo" className="w-100 h-auto mx-auto" />
 
     <Router>
       <div className="min-h-screen bg-gray-100 p-8">
@@ -25,6 +25,8 @@ function App() {
         </Routes>
       </div>
     </Router>
+
+    
       
     </main>
   );

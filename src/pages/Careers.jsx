@@ -27,11 +27,13 @@ export default function Industries() {
           label="Careers" />
       </div>
 
-      <p className="text-center text-xl">INDUSTRIES
-Committed to the relentless pursuit of excellence, A.D.A. Consulting, Inc. works with its clients to deliver innovative technology solutions. Our Professionals are dedicated to business process improvement through leading edge technology, extensive business experience, and a proven track record. We mobilize our staff and our skills to improve the performance of our clients organizations.
+      <p className="text-center text-xl">CAREERS
+Our team's success depends on our individual employees and we are determined to seek, develop and maintain the best individuals. We put great emphasis on the skills and motivation of all our employees and personal accountability is vital to our success as a company. That is why we are keeping an eye for exceptional candidates in various fields.
 
-First class customer satisfaction and top rated consultants have been A.D.A.'s primary assets that propelled this company to be one of the industries premier leader in software consulting here in the bay area.</p>
-      <img src="/ADA.jpg" alt="ADA Logo" className="w-100 h-auto mx-auto" />
+Please keep posted of our list of current vacancies. If you see any fitting opportunity to utilize what you have and make a difference, kindly apply by sending your CV and a cover letter to careers@ada-consulting.net. If at the moment there are no vacancies that are of interest to you but you believe that we can take your career to the next level, we would like to hear from you!
+
+Should your application be unsuccessful, we may consider you for any subsequent roles which match your skills and experience. You can also continue to review and apply for any new roles online.</p>
+      
     </div>
       
   );
