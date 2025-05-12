@@ -27,7 +27,7 @@ export default function Contact() {
           label="Careers" />
       </div>
 
-      <p className="text-center text-xl">Write to us and tell us what you think.
+      <p className="text-center text-xl mt-8 mx-64 text-gray-800">Write to us and tell us what you think.
       Should you wish to contact us via email, please click the email on ADA Headquarters tab below, or complete the form below.</p>
       
     </div>

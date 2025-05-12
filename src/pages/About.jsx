@@ -6,7 +6,7 @@ export default function About() {
     const navigate = useNavigate();
   return (
     
-    <div className="m-25 text-center space-y-4">
+    <div className="text-center space-y-4">
       <h1 className="text-3xl text-center font-bold underline">A.D.A Consulting Website</h1>
 
       <div className="flex items-center justify-center space-x-4">
@@ -27,7 +27,7 @@ export default function About() {
           label="Careers" />
       </div>
 
-      <p className="text-center text-xl">ABOUT US
+      <p className="text-center text-xl mt-8 mx-64 text-gray-800">ABOUT US
         ADA Consulting Incorporated through the leadership of its founder and president, Arnel D. Alon,
         understands the needs of today's business environment. By using the latest technology, A.D.A. will effectively
         handle technology solutions to your business needs. Whether you are an established industry leader or

@@ -27,7 +27,7 @@ export default function Industries() {
           label="Careers" />
       </div>
 
-      <p className="text-center text-xl">CAREERS
+      <p className="text-center text-xl mt-8 mx-64 text-gray-800">CAREERS
 Our team's success depends on our individual employees and we are determined to seek, develop and maintain the best individuals. We put great emphasis on the skills and motivation of all our employees and personal accountability is vital to our success as a company. That is why we are keeping an eye for exceptional candidates in various fields.
 
 Please keep posted of our list of current vacancies. If you see any fitting opportunity to utilize what you have and make a difference, kindly apply by sending your CV and a cover letter to careers@ada-consulting.net. If at the moment there are no vacancies that are of interest to you but you believe that we can take your career to the next level, we would like to hear from you!
