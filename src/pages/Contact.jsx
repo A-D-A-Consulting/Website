@@ -12,10 +12,10 @@ export default function Contact() {
 
     emailjs
       .sendForm(
-        "service_wl9ri2r",
-        "template_bte6fvq",
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
         form.current,
-        "fZJphiyuBwmZxCKHM"
+        process.env.REACT_APP_PUBLIC_KEY
       )
       .then(
         (result) => {
@@ -51,7 +51,7 @@ export default function Contact() {
             onClick={() => navigate('/careers')}
             label="Careers" />
         </div>
-        <p className="text-center text-xl max-w-xl mx-auto p-6 text-gray-800">Write to us and tell us what you think.
+        <p className="text-center text-xl max-w-xl mx-auto text-gray-800">Write to us and tell us what you think.
         Should you wish to contact us via email, please click the email on ADA Headquarters tab below, or complete the form below.</p>
       </div>
       
