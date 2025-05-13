@@ -26,19 +26,22 @@ export default function About() {
           onClick={() => navigate('/careers')}
           label="Careers" />
       </div>
+      <div className="max-w-xl mx-auto p-6 bg-white rounded shadow">
+        <h2 className="text-center text-xl text-gray-800">ABOUT US</h2>
 
-      <p className="text-center text-xl mt-8 mx-64 text-gray-800">ABOUT US
-        ADA Consulting Incorporated through the leadership of its founder and president, Arnel D. Alon,
-        understands the needs of today's business environment. By using the latest technology, A.D.A. will effectively
-        handle technology solutions to your business needs. Whether you are an established industry leader or
-        a growing pioneering company, A.D.A. will establish the solution that your company is looking for.
+        <p className="text-left text-xl text-gray-800">
+          ADA Consulting Incorporated through the leadership of its founder and president, Arnel D. Alon,
+          understands the needs of today's business environment. By using the latest technology, A.D.A. will effectively
+          handle technology solutions to your business needs. Whether you are an established industry leader or
+          a growing pioneering company, A.D.A. will establish the solution that your company is looking for.
 
-        With Over Fourteen years of consulting services experience, from its technical and management staff,
-        A.D.A. has grown rapidly especially in the last 3 years.
+          With Over Fourteen years of consulting services experience, from its technical and management staff,
+          A.D.A. has grown rapidly especially in the last 3 years.
 
-        First class customer satisfaction and top rated consultants have been A.D.A.'s primary assets that propelled
-        the company to be one of the industries premier leader in software consulting here in the bay area.</p>
-      
+          First class customer satisfaction and top rated consultants have been A.D.A.'s primary assets that propelled
+          the company to be one of the industries premier leader in software consulting here in the bay area.
+        </p>
+        </div>
     </div>
       
   );

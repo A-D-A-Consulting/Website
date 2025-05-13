@@ -26,14 +26,15 @@ export default function Industries() {
           onClick={() => navigate('/careers')}
           label="Careers" />
       </div>
+      <div className="max-w-xl mx-auto p-6 bg-white rounded shadow">
+        <h2 className="text-center text-xl text-gray-800">CAREERS</h2>
+        <p className="text-center text-xl text-gray-800">
+  Our team's success depends on our individual employees and we are determined to seek, develop and maintain the best individuals. We put great emphasis on the skills and motivation of all our employees and personal accountability is vital to our success as a company. That is why we are keeping an eye for exceptional candidates in various fields.
 
-      <p className="text-center text-xl mt-8 mx-64 text-gray-800">CAREERS
-Our team's success depends on our individual employees and we are determined to seek, develop and maintain the best individuals. We put great emphasis on the skills and motivation of all our employees and personal accountability is vital to our success as a company. That is why we are keeping an eye for exceptional candidates in various fields.
+  Please keep posted of our list of current vacancies. If you see any fitting opportunity to utilize what you have and make a difference, kindly apply by sending your CV and a cover letter to careers@ada-consulting.net. If at the moment there are no vacancies that are of interest to you but you believe that we can take your career to the next level, we would like to hear from you!
 
-Please keep posted of our list of current vacancies. If you see any fitting opportunity to utilize what you have and make a difference, kindly apply by sending your CV and a cover letter to careers@ada-consulting.net. If at the moment there are no vacancies that are of interest to you but you believe that we can take your career to the next level, we would like to hear from you!
-
-Should your application be unsuccessful, we may consider you for any subsequent roles which match your skills and experience. You can also continue to review and apply for any new roles online.</p>
-      
+  Should your application be unsuccessful, we may consider you for any subsequent roles which match your skills and experience. You can also continue to review and apply for any new roles online.</p>
+      </div>
     </div>
       
   );
