@@ -72,6 +72,13 @@ export default function Contact() {
             className="w-full border px-3 py-2 rounded"
             required
           />
+          <input
+            type="text"
+            name="company"
+            placeholder="Your Company"
+            className="w-full border px-3 py-2 rounded"
+            required
+          />
           <textarea
             name="message"
             placeholder="Your Message"
