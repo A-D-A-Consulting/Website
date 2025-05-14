@@ -35,9 +35,8 @@ export default function Contact() {
   return (
     <div>
       <div className="text-center space-y-4">
-        <h1 className="text-3xl text-center font-bold underline">A.D.A Consulting Website</h1>
 
-        <div className="flex items-center justify-center space-x-4">
+        {/* <div className="flex items-center justify-center space-x-4">
         <Button 
             onClick={() => navigate('/')}
             label="Home" />
@@ -53,7 +52,8 @@ export default function Contact() {
           <Button 
             onClick={() => navigate('/careers')}
             label="Careers" />
-        </div>
+        </div> */}
+
         <p className="text-center text-xl max-w-xl mx-auto text-gray-800">Write to us and tell us what you think.
         Should you wish to contact us via email, please click the email on ADA Headquarters tab below, or complete the form below.</p>
       </div>
