@@ -1,11 +1,13 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import emailjs from "emailjs-com";
+import {CheckCircle} from "lucide-react";
 
 import Button from "../components/Button";
 import { useNavigate } from "react-router-dom";
 
 export default function Contact() {
   const form = useRef();
+  const [isSubmitted, setIsSubmitted] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -19,7 +21,8 @@ export default function Contact() {
       )
       .then(
         (result) => {
-          alert("Message sent!");
+          setIsSubmitted(true);
+          form.current.reset();
         },
         (error) => {
           alert("An error occurred, please try again.");
@@ -92,9 +95,18 @@ export default function Contact() {
               label="Back" />
             <button
               type="submit"
-              className="bg-black text-white px-4 py-2 rounded hover:bg-gray-800 transition"
+              className={`px-4 py-2 rounded transition flex items-center justify-center space-x-2
+                ${isSubmitted ? "bg-green-600 text-white" : "bg-black text-white hover:bg-gray-800"}`}
+              disabled={isSubmitted}
             >
-              Send Message
+              {isSubmitted ? (
+                <>
+                  <CheckCircle className="w-5 h-5" />
+                  <span>Sent!</span>
+                </>
+              ) : (
+                <span>Send Message</span>
+              )}
             </button>
           </div>
         </form>
