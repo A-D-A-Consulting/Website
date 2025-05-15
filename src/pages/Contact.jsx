@@ -60,7 +60,7 @@ export default function Contact() {
       
       <div className="max-w-xl mx-auto p-6 bg-white rounded shadow">
         <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
-        <form ref={form} onSubmit={sendEmail} className="space-y-4">
+        <form ref={form} name="contact" onSubmit={sendEmail} className="space-y-4">
           <input
             type="text"
             name="name"
