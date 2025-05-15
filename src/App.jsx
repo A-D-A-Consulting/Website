@@ -34,6 +34,31 @@ function App() {
         </div>
       </nav>
 
+      <div className="relative h-screen overflow-hidden">
+        <video
+          className="absolute w-full h-full object-cover"
+          autoPlay
+          muted
+          loop
+          playsInline
+          src="/video.mp4"
+        />
+        {/* Overlay */}
+        <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center text-white text-center px-4">
+          <h1 className="text-4xl md:text-6xl font-bold mb-6">
+            Welcome to My Website
+          </h1>
+          <div className="flex gap-4">
+            <button className="bg-green-500 hover:bg-green-600 px-6 py-3 rounded text-white font-semibold shadow-lg transition">
+              Get Started
+            </button>
+            <button className="bg-white text-black px-6 py-3 rounded font-semibold hover:bg-gray-200 transition">
+              Learn More
+            </button>
+          </div>
+        </div>
+      </div>
+
     <img src="/ADA.jpg" alt="ADA Logo" className="w-100 h-auto mx-auto" />
 
     <div className="min-h-screen bg-gray-100 p-8">
