@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 
+import { Link as ScrollLink, Element} from "react-scroll";
+
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
 import Industries from "./pages/Industries.jsx";
@@ -17,14 +19,16 @@ function App() {
 
   return (
     <main className="bg-gray-100">
-      <nav className="bg-black text-white p-4 shacdow-md">
+      {/* Navigation Bar */}
+      <nav className="bg-black text-white p-5 shacdow-md">
         <div className="container mx-auto flex items-center justify-between">
           <div className="text-xl font-bold">
             <button onClick={() => navigate('/')}>A.D.A. Consulting</button>
           </div>
 
-          <div className="flex space-x-4">
+          <div className="flex space-x-6">
             <Link to="/" className="hover:text-gray-300">Home</Link>
+            <ScrollLink to="home" smooth={true} duration={500} className="hover:text-gray-300">Home</ScrollLink>
             <Link to="/about" className="hover:text-gray-300">About</Link>
             <Link to="/industries" className="hover:text-gray-300">Industries</Link>
             <Link to="/contact" className="hover:text-gray-300">Contact Us</Link>
@@ -34,6 +38,7 @@ function App() {
         </div>
       </nav>
 
+      {/* Video Background */}
       <div className="relative h-screen overflow-hidden">
         <video
           className="absolute w-full h-full object-cover"
@@ -59,7 +64,9 @@ function App() {
         </div>
       </div>
 
+    <Element name="home">
     <img src="/ADA.jpg" alt="ADA Logo" className="w-100 h-auto mx-auto" />
+    </Element>
 
     <div className="min-h-screen bg-gray-100 p-8">
       <Routes>
