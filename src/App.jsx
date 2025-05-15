@@ -27,12 +27,11 @@ function App() {
           </div>
 
           <div className="flex space-x-6">
-            <Link to="/" className="hover:text-gray-300">Home</Link>
-            <ScrollLink to="home" smooth={true} duration={500} className="hover:text-gray-300">Home</ScrollLink>
-            <Link to="/about" className="hover:text-gray-300">About</Link>
-            <Link to="/industries" className="hover:text-gray-300">Industries</Link>
-            <Link to="/contact" className="hover:text-gray-300">Contact Us</Link>
-            <Link to="/careers" className="hover:text-gray-300">Careers</Link>
+            <ScrollLink to="home" smooth={true} duration={500} className="hover:text-gray-300"><Link to="/">Home</Link></ScrollLink>
+            <ScrollLink to="home" smooth={true} duration={500} className="hover:text-gray-300"><Link to="/about">About</Link></ScrollLink>
+            <ScrollLink to="home" smooth={true} duration={500} className="hover:text-gray-300"><Link to="/industries">Industries</Link></ScrollLink>
+            <ScrollLink to="home" smooth={true} duration={500} className="hover:text-gray-300"><Link to="/contact">Contact Us</Link></ScrollLink>
+            <ScrollLink to="home" smooth={true} duration={500} className="hover:text-gray-300"><Link to="/careers">Careers</Link></ScrollLink>
           </div>
 
         </div>
@@ -51,15 +50,14 @@ function App() {
         {/* Overlay */}
         <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center text-white text-center px-4">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            Welcome to My Website
+            A.D.A meets your business needs.
           </h1>
           <div className="flex gap-4">
-            <button className="bg-green-500 hover:bg-green-600 px-6 py-3 rounded text-white font-semibold shadow-lg transition">
-              Get Started
-            </button>
-            <button className="bg-white text-black px-6 py-3 rounded font-semibold hover:bg-gray-200 transition">
-              Learn More
-            </button>
+            <ScrollLink to="home" smooth={true} duration={500}>
+              <button className="bg-white text-black px-6 py-3 rounded font-semibold hover:bg-gray-200 transition">
+                Learn More
+              </button>
+            </ScrollLink>
           </div>
         </div>
       </div>
