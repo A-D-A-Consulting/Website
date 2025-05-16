@@ -30,12 +30,19 @@ export default function Industries() {
       <FadeIn>
       <div className="max-w-xl mx-auto p-6 bg-white rounded shadow">
         <h2 className="text-center text-xl text-gray-800">CAREERS</h2>
-        <p className="text-center text-xl text-gray-800">
-  Our team's success depends on our individual employees and we are determined to seek, develop and maintain the best individuals. We put great emphasis on the skills and motivation of all our employees and personal accountability is vital to our success as a company. That is why we are keeping an eye for exceptional candidates in various fields.
+        <p className="text-left text-xl text-gray-800">
+        Careers at ADA Consulting
 
-  Please keep posted of our list of current vacancies. If you see any fitting opportunity to utilize what you have and make a difference, kindly apply by sending your CV and a cover letter to careers@ada-consulting.net. If at the moment there are no vacancies that are of interest to you but you believe that we can take your career to the next level, we would like to hear from you!
-
-  Should your application be unsuccessful, we may consider you for any subsequent roles which match your skills and experience. You can also continue to review and apply for any new roles online.</p>
+At ADA Consulting Incorporated, our success is driven by the talent, dedication, and passion of our people. We are committed to attracting, developing, and retaining exceptional professionals who are eager to make a meaningful impact.
+<br/><br/>
+We place a strong emphasis on individual accountability, technical excellence, and continuous growth. Our team culture values collaboration, innovation, and a shared commitment to delivering outstanding results for our clients.
+<br/><br/>
+We are always on the lookout for talented individuals across a variety of disciplines. Please check our current openings regularly. If you find an opportunity that aligns with your skills and aspirations, we encourage you to apply by submitting your CV and cover letter to careers@ada-consulting.net.
+<br/><br/>
+Even if no current openings match your profile, we welcome proactive applications from candidates who believe they can contribute to our continued success. Should your application not be successful immediately, we may consider you for future roles that better align with your experience and qualifications. You're also encouraged to revisit our careers page for new opportunities.
+<br/><br/>
+Join us—and be part of a team that’s shaping the future of business technology.
+        </p>
       </div>
       </FadeIn>
     </div>

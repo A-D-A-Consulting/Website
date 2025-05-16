@@ -28,8 +28,9 @@ export default function Home() {
           label="Careers" />
       </div> */}
         <div className="max-w-xl mx-auto p-6 bg-white rounded shadow">
-          <p className="text-left text-xl text-gray-800">ADA Consulting Incorporated is a business system consulting firm that specializes in the development and implementation of computerized business applications. We have successfully implemented technical solutions in the biotech, consumer products, medical products, wholesale and distribution industries.
-          We understand the business needs of the clients and industries we support whether you are a multi-national corporation or a small office with few employees, we have the expertise and experience that you need.</p>
+          <p className="text-left text-xl text-gray-800">ADA Consulting Incorporated is a trusted provider of business systems consulting services, specializing in the design, development, and implementation of advanced computerized business applications. Our proven track record spans multiple industries, including biotechnology, consumer goods, medical devices, wholesale, and distribution.
+            <br/><br/>
+We take pride in our deep understanding of the unique operational needs of each client—whether you're a multinational corporation or a small business. With a combination of industry expertise and technical excellence, ADA Consulting delivers tailored solutions that drive efficiency, scalability, and growth.</p>
         </div>
         <div className="max-w-xl mx-auto p-6 bg-white rounded shadow">
           <h1 className="text-left text-xl text-gray-800">Consulting Services</h1>
