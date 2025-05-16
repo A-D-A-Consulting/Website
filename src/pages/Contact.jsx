@@ -11,12 +11,19 @@ export default function Contact() {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    
+    const formData = {
+      name: form.current.name.value,
+      email: form.current.email.value,
+      company: form.current.company.value,
+      message: form.current.message.value,
+    };
 
     emailjs
-      .sendForm(
+      .send(
         process.env.REACT_APP_SERVICE_ID,
         process.env.REACT_APP_TEMPLATE_ID,
-        form.current,
+        formData,
         process.env.REACT_APP_PUBLIC_KEY
       )
       .then(
