@@ -50,7 +50,7 @@ function App() {
         {/* Overlay */}
         <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center text-white text-center px-4">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            A.D.A meets your business needs.
+            A.D.A. meets your business needs.
           </h1>
           <div className="flex gap-4">
             <ScrollLink to="home" smooth={true} duration={500}>
