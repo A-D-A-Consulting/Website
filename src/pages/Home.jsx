@@ -31,7 +31,7 @@ export default function Home() {
         We understand the business needs of the clients and industries we support whether you are a multi-national corporation or a small office with few employees, we have the expertise and experience that you need.</p>
       </div>
       <div className="max-w-xl mx-auto p-6 bg-white rounded shadow">
-        <h1 className="text-left text-xl text-gray-800">Consulting Offerings</h1>
+        <h1 className="text-left text-xl text-gray-800">Consulting Services</h1>
       </div>
       <div className="flex items-center justify-center space-x-4">
         <div className="max-w-sm p-6 bg-white rounded shadow">
