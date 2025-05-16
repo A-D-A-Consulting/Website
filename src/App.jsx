@@ -53,11 +53,13 @@ function App() {
             A.D.A. meets your business needs.
           </h1>
           <div className="flex gap-4">
-            <ScrollLink to="home" smooth={true} duration={500}>
+            
               <button className="bg-white text-black px-6 py-3 rounded font-semibold hover:bg-gray-200 transition">
-                Learn More
+                <ScrollLink to="logo" smooth={true} duration={500}>
+                  Learn More
+                </ScrollLink>
               </button>
-            </ScrollLink>
+            
           </div>
         </div>
       </div>
