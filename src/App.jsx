@@ -12,6 +12,8 @@ import Industries from "./pages/Industries.jsx";
 import Contact from "./pages/Contact.jsx";
 import Careers from "./pages/Careers.jsx";
 
+import FadeIn from "./components/FadeIn.jsx";
+
 
 
 function App() {
@@ -27,11 +29,11 @@ function App() {
           </div>
 
           <div className="flex space-x-6">
-            <ScrollLink to="home" smooth={true} duration={500} className="hover:text-gray-300"><Link to="/">Home</Link></ScrollLink>
-            <ScrollLink to="home" smooth={true} duration={500} className="hover:text-gray-300"><Link to="/about">About</Link></ScrollLink>
-            <ScrollLink to="home" smooth={true} duration={500} className="hover:text-gray-300"><Link to="/industries">Industries</Link></ScrollLink>
-            <ScrollLink to="home" smooth={true} duration={500} className="hover:text-gray-300"><Link to="/contact">Contact Us</Link></ScrollLink>
-            <ScrollLink to="home" smooth={true} duration={500} className="hover:text-gray-300"><Link to="/careers">Careers</Link></ScrollLink>
+            <ScrollLink to="logo" smooth={true} duration={500} className="hover:text-gray-300"><Link to="/">Home</Link></ScrollLink>
+            <ScrollLink to="logo" smooth={true} duration={500} className="hover:text-gray-300"><Link to="/about">About</Link></ScrollLink>
+            <ScrollLink to="logo" smooth={true} duration={500} className="hover:text-gray-300"><Link to="/industries">Industries</Link></ScrollLink>
+            <ScrollLink to="logo" smooth={true} duration={500} className="hover:text-gray-300"><Link to="/contact">Contact Us</Link></ScrollLink>
+            <ScrollLink to="logo" smooth={true} duration={500} className="hover:text-gray-300"><Link to="/careers">Careers</Link></ScrollLink>
           </div>
 
         </div>
@@ -62,21 +64,23 @@ function App() {
         </div>
       </div>
 
-    <Element name="home">
-    <img src="/ADA.jpg" alt="ADA Logo" className="w-100 h-auto mx-auto" />
+
+    <Element name="logo">
+      <img src="/ADA.jpg" alt="ADA Logo" className="w-100 h-auto mx-auto" />
     </Element>
 
-    <div className="min-h-screen bg-gray-100 p-8">
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/industries" element={<Industries />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/careers" element={<Careers />} />
-      </Routes>
-    </div>
+    <FadeIn>
+      <div className="min-h-screen bg-gray-100 p-8">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/industries" element={<Industries />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/careers" element={<Careers />} />
+        </Routes>
+      </div>
+    </FadeIn>
 
-    
       
     </main>
   );
