@@ -38,7 +38,7 @@ Our experienced professionals combine deep industry knowledge with cutting-edge 
 With a strong foundation built on exceptional customer satisfaction and a team of top-tier consultants, ADA Consulting has earned its reputation as one of the Bay Area’s premier software consulting firms. We are proud to support businesses across a wide range of sectors with solutions tailored to their unique challenges and goals.</p>
       </div>
 
-      <div className="flex items-center justify-center space-x-4 p-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-6">
         <div className="max-w-sm p-6 bg-white rounded shadow">
           <img src="/affymatrix.jpg" alt="Affymatrix Logo" className="w-100 h-auto mx-auto" />
         </div>
