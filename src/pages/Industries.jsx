@@ -38,8 +38,34 @@ Our experienced professionals combine deep industry knowledge with cutting-edge 
 With a strong foundation built on exceptional customer satisfaction and a team of top-tier consultants, ADA Consulting has earned its reputation as one of the Bay Area’s premier software consulting firms. We are proud to support businesses across a wide range of sectors with solutions tailored to their unique challenges and goals.</p>
       </div>
 
-      <div className="max-w-xl mx-auto p-6 bg-white rounded shadow">
-
+      <div className="flex items-center justify-center space-x-4 p-6">
+        <div className="max-w-sm p-6 bg-white rounded shadow">
+          <img src="/affymatrix.jpg" alt="Affymatrix Logo" className="w-100 h-auto mx-auto" />
+        </div>
+        <div className="max-w-sm p-6 bg-white rounded shadow">
+          <img src="/bic.jpg" alt="Bic Logo" className="w-100 h-auto mx-auto" />
+        </div>
+        <div className="max-w-sm p-6 bg-white rounded shadow">
+          <img src="/dole.jpg" alt="Dole Logo" className="w-100 h-auto mx-auto" />
+        </div>
+        <div className="max-w-sm p-6 bg-white rounded shadow">
+          <img src="/granite.png" alt="Granite Logo" className="w-100 h-auto mx-auto" />
+        </div>
+        <div className="max-w-sm p-6 bg-white rounded shadow">
+          <img src="/invisalign.jpg" alt="Invisalign Logo" className="w-100 h-auto mx-auto" />
+        </div>
+        <div className="max-w-sm p-6 bg-white rounded shadow">
+          <img src="/manns.jpg" alt="Manns Logo" className="w-100 h-auto mx-auto" />
+        </div>
+        <div className="max-w-sm p-6 bg-white rounded shadow">
+          <img src="/molina.png" alt="Molina Logo" className="w-100 h-auto mx-auto" />
+        </div>
+        <div className="max-w-sm p-6 bg-white rounded shadow">
+          <img src="/tanimura.jpg" alt="Tanimura Logo" className="w-100 h-auto mx-auto" />
+        </div>
+        <div className="max-w-sm p-6 bg-white rounded shadow">
+          <img src="/tomkin.jpg" alt="Thomas Kinkade Logo" className="w-100 h-auto mx-auto" />
+        </div>
       </div>
       </FadeIn>
     </div>
