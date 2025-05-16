@@ -12,8 +12,6 @@ import Industries from "./pages/Industries.jsx";
 import Contact from "./pages/Contact.jsx";
 import Careers from "./pages/Careers.jsx";
 
-import FadeIn from "./components/FadeIn.jsx";
-
 
 
 function App() {
@@ -69,7 +67,6 @@ function App() {
       <img src="/ADA.jpg" alt="ADA Logo" className="w-100 h-auto mx-auto" />
     </Element>
 
-    <FadeIn>
       <div className="min-h-screen bg-gray-100 p-8">
         <Routes>
           <Route path="/" element={<Home />} />
@@ -79,7 +76,6 @@ function App() {
           <Route path="/careers" element={<Careers />} />
         </Routes>
       </div>
-    </FadeIn>
 
       
     </main>

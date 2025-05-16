@@ -2,6 +2,8 @@
 
 // import { useNavigate } from "react-router-dom";
 
+import FadeIn from "../components/FadeIn";
+
 export default function Industries() {
     // const navigate = useNavigate();
   return (
@@ -25,7 +27,7 @@ export default function Industries() {
           onClick={() => navigate('/careers')}
           label="Careers" />
       </div> */}
-
+      <FadeIn>
       <div className="max-w-xl mx-auto p-6 bg-white rounded shadow">
         <h2 className="text-center text-xl text-gray-800">INDUSTRIES</h2>
         <p className="text-left text-xl text-gray-800">
@@ -33,6 +35,7 @@ export default function Industries() {
 
   First class customer satisfaction and top rated consultants have been A.D.A.'s primary assets that propelled this company to be one of the industries premier leader in software consulting here in the bay area.</p>
       </div>
+      </FadeIn>
     </div>
       
   );

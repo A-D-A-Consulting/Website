@@ -2,10 +2,11 @@
 
 // import { useNavigate } from "react-router-dom";
 
+import FadeIn from "../components/FadeIn";
+
 export default function Home() {
     // const navigate = useNavigate();
   return (
-    
     <div className="text-center space-y-4">
 
       {/* <div className="flex items-center justify-center space-x-4">
@@ -25,7 +26,7 @@ export default function Home() {
           onClick={() => navigate('/careers')}
           label="Careers" />
       </div> */}
-
+      <FadeIn>
       <div className="max-w-xl mx-auto p-6 bg-white rounded shadow">
         <p className="text-left text-xl text-gray-800">ADA Consulting Incorporated is a business system consulting firm that specializes in the development and implementation of computerized business applications. We have successfully implemented technical solutions in the biotech, consumer products, medical products, wholesale and distribution industries.
         We understand the business needs of the clients and industries we support whether you are a multi-national corporation or a small office with few employees, we have the expertise and experience that you need.</p>
@@ -45,6 +46,7 @@ export default function Home() {
           </p>
         </div>
       </div>
+      </FadeIn>
     </div>
       
   );

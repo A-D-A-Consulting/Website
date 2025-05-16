@@ -5,6 +5,8 @@ import {CheckCircle} from "lucide-react";
 import Button from "../components/Button";
 import { useNavigate } from "react-router-dom";
 
+import FadeIn from "../components/FadeIn";
+
 export default function Contact() {
   const form = useRef();
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -41,6 +43,7 @@ export default function Contact() {
 
   return (
     <div>
+      <FadeIn>
       <div className="text-center space-y-4">
 
         {/* <div className="flex items-center justify-center space-x-4">
@@ -118,6 +121,7 @@ export default function Contact() {
           </div>
         </form>
       </div>
+      </FadeIn>
     </div>
   );
 }
