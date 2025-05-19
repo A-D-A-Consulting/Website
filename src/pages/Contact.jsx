@@ -5,14 +5,22 @@ import {CheckCircle} from "lucide-react";
 import Button from "../components/Button";
 import { useNavigate } from "react-router-dom";
 
+import ReCAPTCHA from "react-google-recaptcha";
+
 import FadeIn from "../components/FadeIn";
 
 export default function Contact() {
   const form = useRef();
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [captchaValue, setCaptchaValue] = useState(null);
 
   const sendEmail = (e) => {
     e.preventDefault();
+
+    if (!captchaValue) {
+      alert("Please verify the captcha.");
+      return;
+    }
     
     const formData = {
       name: form.current.name.value,
@@ -40,6 +48,8 @@ export default function Contact() {
   };
 
   const navigate = useNavigate();
+
+  const siteKey = process.env.REACT_APP_RECAPTCHA_SITE_KEY;
 
   return (
     <div>
@@ -99,6 +109,12 @@ export default function Contact() {
             rows="5"
             required
           ></textarea>
+
+          <ReCAPTCHA
+            sitekey={siteKey}
+            onChange={(value) => setCaptchaValue(value)}
+          />
+
           <div className="flex justify-between items-center w-full max-w-xl mx-auto mt-4">
             <Button 
               onClick={() => navigate('/')}
