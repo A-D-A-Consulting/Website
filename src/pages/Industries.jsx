@@ -37,7 +37,7 @@ Our experienced professionals combine deep industry knowledge with cutting-edge 
         <br/><br/>
 With a strong foundation built on exceptional customer satisfaction and a team of top-tier consultants, ADA Consulting has earned its reputation as one of the Bay Area’s premier software consulting firms. We are proud to support businesses across a wide range of sectors with solutions tailored to their unique challenges and goals.</p>
       </div>
-
+        <br/>
       <div className="max-w-xl mx-auto p-6 bg-white rounded shadow">
         <h1 className="text-left text-xl text-gray-800">Our Valued Customers</h1>
       </div>
