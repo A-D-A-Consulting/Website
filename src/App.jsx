@@ -1,5 +1,6 @@
 import "./App.css";
 
+// eslint-disable-next-line
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
@@ -80,6 +81,42 @@ function App() {
       </div>
 
       
+      <footer className="bg-black text-white mt-16">
+        <div className="max-w-7xl mx-auto px-4 py-10 grid grid-cols-1 md:grid-cols-3 gap-8">
+          {/* Column 1 */}
+          <div>
+            <h3 className="text-lg font-semibold mb-4">About Us</h3>
+            <p className="text-sm text-gray-300">
+              ADA is a leading consulting firm focused on business transformation and innovation.
+            </p>
+          </div>
+
+          {/* Column 2 */}
+          <div>
+            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
+            <ul className="space-y-2 text-sm text-gray-300">
+              <li><ScrollLink to="logo" smooth={true} duration={500} className="hover:underline"><Link to="/">Home</Link></ScrollLink></li>
+              <li><ScrollLink to="logo" smooth={true} duration={500} className="hover:underline"><Link to="/about">About</Link></ScrollLink></li>
+              <li><ScrollLink to="logo" smooth={true} duration={500} className="hover:underline"><Link to="/industries">Industries</Link></ScrollLink></li>
+              <li><ScrollLink to="logo" smooth={true} duration={500} className="hover:underline"><Link to="/contact">Contact</Link></ScrollLink></li>
+              <li><ScrollLink to="logo" smooth={true} duration={500} className="hover:underline"><Link to="/careers">Careers</Link></ScrollLink></li>
+            </ul>
+          </div>
+
+          {/* Column 3 */}
+          <div>
+            <h3 className="text-lg font-semibold mb-4">Contact</h3>
+            <p className="text-sm text-gray-300">Email: adalon@ada-consulting.net</p>
+            <p className="text-sm text-gray-300">Phone: (408) 799-2607</p>
+            <p className="text-sm text-gray-300">Address: 2963 Bowery Lane San Jose, California 95135</p>
+          </div>
+        </div>
+
+        <div className="text-center text-sm text-gray-400 py-4 border-t border-gray-700">
+          &copy; {new Date().getFullYear()} ADA Consulting. All rights reserved.
+        </div>
+      </footer>
+
     </main>
   );
 }

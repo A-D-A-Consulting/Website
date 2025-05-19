@@ -38,12 +38,12 @@ We take pride in our deep understanding of the unique operational needs of each 
         <div className="flex items-center justify-center space-x-4">
           <div className="max-w-sm p-6 bg-white rounded shadow">
               <h2 className="text-left text-xl text-gray-800">JD Edwards Enterprise One</h2>
-              <p className="text-left text-m text-gray-800">Oracle's JD Edwards EnterpriseOne is a complete suite modular, pre-intergrated industry-specific business applications designed for rapid...
+              <p className="text-left text-m text-gray-800">JD Edwards EnterpriseOne (JDE) is an enterprise resource planning (ERP) software suite developed by Oracle. It helps businesses manage key functions such as finance, supply chain, manufacturing, human resources, and project management. The system is modular and highly customizable, making it suitable for medium to large organizations in various industries. EnterpriseOne runs on multiple platforms and features a modern, web-based interface. It also integrates smoothly with other Oracle products and third-party applications for broader functionality.
               </p>
           </div>
           <div className="max-w-sm p-6 bg-white rounded shadow">
             <h2 className="text-left text-xl text-gray-800">JD Edwards World</h2>
-            <p className="text-left text-m text-gray-800">Built for the IBM iSeries platform, Oracle's JD Edwards World offers a world-class enterprise solution for small businesses...
+            <p className="text-left text-m text-gray-800">JD Edwards World is an ERP software system originally developed by JD Edwards and now owned by Oracle. It runs primarily on IBM iSeries (AS/400) systems and is known for its stability and reliability. World offers integrated modules for finance, manufacturing, distribution, and human resources, helping organizations manage their core business processes. Unlike EnterpriseOne, JD Edwards World has a green-screen interface and is less customizable but simpler to maintain. It is often used by companies that prioritize consistency, low total cost of ownership, and strong legacy system support.
             </p>
           </div>
         </div>
