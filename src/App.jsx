@@ -85,7 +85,8 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 py-10 grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Column 1 */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">About Us</h3>
+            <h3 className="text-lg font-semibold mb-4 text-center">About Us</h3>
+            <img src="/ADA.jpg" alt="ADA Logo" className="w-20 h-auto mx-auto" /><br/>
             <p className="text-sm text-gray-300">
               ADA is a leading consulting firm focused on business transformation and innovation.
             </p>
