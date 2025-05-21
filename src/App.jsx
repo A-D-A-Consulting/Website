@@ -114,7 +114,7 @@ function App() {
         </div>
 
         <div className="text-center text-sm text-gray-400 py-4 border-t border-gray-700">
-          &copy; {new Date().getFullYear()} ADA Consulting. All rights reserved.
+          &copy; {new Date().getFullYear()} A.D.A. Consulting. All rights reserved.
         </div>
       </footer>
 
